@@ -40,6 +40,7 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400i,400b|PT+Sans:400,400i,400b);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,400b|Montserrat:400,400i,400b);
+@import url(https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css);
 * {
 	box-sizing: border-box;
 	font-family: 'Lato','Microsoft Yahei';
@@ -103,7 +104,38 @@
 	background-color: #ff6347;
 }
 @media (min-width: 1px) and (max-width: 1500px) {
-	.orange-zhubiao-nav-inline-block-menu {
-		
+	.orange-zhubiao-nav-menu {
+		position: relative;
+		display: inline-block;	
+	}
+	.orange-zhubiao-nav-menu-start-button {
+		cursor: pointer;
+		border: none;
+		font-size: 16px;
+		color: white;
+		padding: 0px;
+		background-color: #ff6347;
+	}
+	.orange-zhubiao-nav-menu-content {
+		display: none;
+		position: absolute;
+		background-color: #ff6347;
+		width: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	.orange-zhubiao-nav-menu-content a {
+		color: white;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.orange-zhubiao-nav-menu-content a:hover {
+		background-color: #e7e7e7;
+	}
+	.orange-zhubiao-nav-menu:hover .orange-zhubiao-nav-menu-content {
+		display: block;
+	}
+	.orange-zhubiao-nav-menu:hover .orange-zhubiao-nav-menu-start-button {
+		background-color: #e7e7e7;
 	}
 }
