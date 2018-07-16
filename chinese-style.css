@@ -1,0 +1,109 @@
+/* Chinese-Style CSS
+ * Author: SammyOrCirn233
+ * plz give me some stars in github!!
+ * This CSS File is Licensed under MIT.
+ */
+/*
+ * Orange-Set
+ * ChineseName=硃膘,Hex=#ff6347;
+ * ChineseName=桔红,Hex=#ff4500;
+ * ChineseName=红扇贝,Hex=#fa8072;
+ * ChineseName=金红,Hex=#ff7f50;
+ * ChineseName=雄精,Hex=#f4a460;
+ * ChineseName=章丹,Hex=#ff3300;
+ * ChineseName=柿,Hex=#ff6633;
+ * ChineseName=桔黄,Hex=#ff9933;
+ * ChineseName=粉橙,Hex=#ff9966;
+ * ChineseName=橙,Hex=#ffa500;
+ * ChineseName=仓黄,Hex=#cc3300;
+ * ChineseName=雄黄,Hex=#cc9900;
+ * ChineseName=金黄,Hex=#cc6600;
+*/
+/*
+ * Blue-Set
+ * ChineseName=藏黑蓝,Hex=#000033;
+ * ChineseName=藏蓝,Hex=#3300cc;
+ * ChineseName=深蓝,Hex=#003366;
+ * ChineseName=沉蓝,Hex=#006699;
+ * ChineseName=钛铁,Hex=#000066;
+ * ChineseName=靛,Hex=#330066;
+ * ChineseName=劳动布,Hex=#0033cc;
+ * ChineseName=绀青,Hex=#333366;
+ * ChineseName=浅土蓝,Hex=#339999;
+ * ChineseName=浅海昌蓝,Hex=#6699ff;
+ * ChineseName=海蓝,Hex=#333399;
+ * ChineseName=鲜蓝,Hex=#0033ff;
+ * ChineseName=孔雀蓝,Hex=#0000ff;
+ * ChineseName=群青,Hex=#3333cc;
+ * ChineseName=宝石蓝,Hex=#3300ff;
+*/
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,400b|PT+Sans:400,400i,400b);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,400b|Montserrat:400,400i,400b);
+* {
+	box-sizing: border-box;
+	font-family: 'Lato','Microsoft Yahei';
+}
+/*Orange-Set 硃膘(#ff6347)*/
+.orange-zhubiao-button-8px-radius-no-hover-animation {
+	border: 2px solid #ff6347;
+	border-radius: 8px;
+	background-color: #ff6347;
+	color: white;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.orange-zhubiao-button-12px-radius-no-hover-animation {
+	border: 2px solid #ff6347;
+	border-radius: 12px;
+	background-color: #ff6347;
+	color: white;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.orange-zhubiao-button-8px-radius-with-hover-animation {
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	border: 2px solid #ff6347;
+	border-radius: 8px;
+	background-color: #ff6347;
+	color: white;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.orange-zhubiao-button-8px-radius-with-hover-animation:hover {
+	background-color: #fff;
+	color: #ff6347;
+}
+.orange-zhubiao-button-12px-radius-with-hover-animation {
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	border: 2px solid #ff6347;
+	border-radius: 12px;
+	background-color: #ff6347;
+	color: white;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.orange-zhubiao-button-12px-radius-with-hover-animation:hover {
+	background-color: #fff;
+	color: #ff6347;
+}
+.orange-zhubiao-navcontainer {
+	width: auto;
+	height: auto;
+	background-color: #ff6347;
+}
+@media (min-width: 1px) and (max-width: 1500px) {
+	.orange-zhubiao-nav-inline-block-menu {
+		
+	}
+}
